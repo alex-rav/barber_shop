@@ -1,6 +1,21 @@
 @import "./reset.css";
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@700&family=PT+Sans:wght@400;700&display=swap');
 
+/* General */
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
 /* Header */
 
 /* Navigation - Header */
@@ -33,7 +48,8 @@
     flex-direction: row;
     align-items: center;
     padding: 0px;
-    gap: 80px; 
+    gap: 80px;
+    margin-right: 205px; 
 }
 
 .right_part {
@@ -41,7 +57,8 @@
     flex-direction: row;
     align-items: center;
     padding: 0px;
-    gap: 80px; 
+    gap: 80px;
+    margin-left: 205px;  
 }
 
 /* 
@@ -56,6 +73,3 @@ width: 320px;
 height: 70px;
 left: 0px;
 top: 0px;
-
-*/
-
